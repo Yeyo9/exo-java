@@ -51,5 +51,12 @@ for(let i=0;i<couleur.length;i++)
 }
 
 
+/*# Utilisation de Array.push() et Array.pop() */
 
 
+let numbers = [1,2,3,4,5];
+numbers.push("6");
+console.log(numbers)
+
+numbers.pop("6")
+console.log(numbers)
