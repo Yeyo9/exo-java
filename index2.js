@@ -60,3 +60,42 @@ console.log(numbers)
 
 numbers.pop("6")
 console.log(numbers)
+
+/* # Fonctions */
+
+
+
+if (34 % 2 == 0) 
+{
+    console.log("true");
+}
+    else
+{
+    console.log("false");
+}
+/*-----------------------------*/
+
+let numero = ["10","52","41","6"];
+console.log(numero[0]);
+console.log(numero[1]);
+console.log(numero[2]);
+console.log(numero[3]);
+
+for(let i=0;i<numero.lenght;i++)
+{
+    console.log(numero[i]);
+}
+
+/*-----------------------------*/
+
+let bonjour = "salut"
+let rev = bonjour.split('').reverse().join('');
+
+console.log(rev);
+
+
+
+
+
+
+
