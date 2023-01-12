@@ -89,9 +89,9 @@ for(let i=0;i<numero.lenght;i++)
 /*-----------------------------*/
 
 let bonjour = "salut"
-let rev = bonjour.split('').reverse().join('');
+let bonjour2 = bonjour.split('').reverse().join('');
 
-console.log(rev);
+console.log(bonjour2);
 
 
 
